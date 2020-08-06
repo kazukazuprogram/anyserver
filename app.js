@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // express モジュールのインスタンス作成
 const express = require('express');
 const app = express();
