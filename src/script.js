@@ -3,8 +3,7 @@ window.onload = () => {
   document.querySelector("div.container").style = "display: none";
   registForm = document.querySelector("form.register");
   registForm.onsubmit = () => {
-    console.log("PRESS");
-    console.log(registForm.username.value)
+    console.log("Username:"+registForm.username.value)
     window.username = registForm.username.value
     Cookies.set('username', window.username);
     document.querySelector("div.container").style = "";
