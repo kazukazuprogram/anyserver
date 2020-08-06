@@ -1,0 +1,6 @@
+{
+  "watch": ["."],                 // 監視対象フォルダ
+  "ext": "js",                      // 監視対象拡張子
+  "ignore": ["src/**/*.spec.ts"],   // 監視対象外
+  "exec": "echo nodemon start."  // nodemon起動時の実行スクリプト
+}
