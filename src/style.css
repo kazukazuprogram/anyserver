@@ -1,3 +1,64 @@
-/* div.container {
-  display: none;
-} */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+div.container {
+  position: relative;
+}
+
+div.welcome_message {
+  padding: 8px;
+}
+
+div.header {
+  position: absolute;
+  background-color: white;
+  width: calc(100vw-10px);
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header div {
+  margin: 10px;
+  float: left;
+}
+
+div.message_list {
+  height: 90vh;
+  width: 100vw;
+  word-break: break-all;
+  overflow: scroll;
+  overflow-x: auto;
+
+}
+
+div.sendform {
+  position: absolute;
+  bottom: -10vh;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+div.sendform input[type=text] {
+  width: 90vw;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+div.message_list table {
+  margin: 20px;
+}
+div.message_list td {
+  padding: 2px;
+  width: 10rem;
+
+}
