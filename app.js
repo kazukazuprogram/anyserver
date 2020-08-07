@@ -44,9 +44,6 @@ io.on('connection', (socket) => {
       io.emit('message', JSON.stringify(resMes));
     }
   });
-  io.on('disconnect', (socket) => {
-    console.log("[Websocket] Client disconnected.")
-  });
 });
 
 
